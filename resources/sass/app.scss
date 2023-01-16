@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    color: #fff;
+}
+header {
+    height: 100%;
+}
+header .header-menu{
+    background-color: #fff;
+    height: 171px;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 1rem;
+}
+header a{
+    color: #000;
+}
+header .header-blue {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(2, 130, 249);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 4rem;
+    margin: 0;
+    padding: 0.3rem 10rem;
+}
+header .external-link {
+    text-transform: uppercase;
+    color: white;
+}
+nav li a:hover {
+    color: #008aff;
+}
+header .header-logo{
+    max-width: 5rem;
+    max-height: 5rem;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    height: 100%;
+}
+nav .nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+nav .link {
+    text-transform: uppercase;
+}
+main .jumbo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+main .card-menu {
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin-top: -35rem;
+    position: relative;
+    z-index: 2;
+}
+main .card-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 100%;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+main .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+main .card-title{
+    text-transform: uppercase;
+    font-size: 1rem;
+    overflow-wrap: break-word;
+}
+main .main-bottom-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    width: 100%;
+    margin: 0;
+    background-color: #008aff;
+}
+main .thumb-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    gap: 3rem;
+}
+main .thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    gap: 1rem;
+    color: white;
+}
+main .thumb-img {
+    max-width: 4rem;
+}
+main .thumb-title {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.bottom-footer,
+.rest-footer,
+.top-footer {
+    position: relative;
+    z-index: 2;
+}
+.top-footer {
+    background-color: #008aff;
+    height: 189px;
+}
+.middle-footer {
+    // background-image: url(/img/footer-bg.1b706117.jpg); //TODO: CAMBIA PERCORSO
+    height: 480px;
+    background-repeat: none;
+}
+.bottom-footer {
+    background-color: #2f2f2f;
+    height: 157px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rest-footer {
+    background-color: #202020;
+    height: 50vh;
+}
+.top-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 100%;
+    white-space: nowrap;
+}
+.top-footer li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+.top-footer img{
+    max-width: 4rem;
+    max-height: 4rem;
+}
+.middle-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.middle-footer-lt-ul {
+    display: flex;
+    gap: 2rem;
+}
+.middle-footer h1 {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.middle-footer span {
+    color: gray;
+}
+.first-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.link-list h1 {
+    margin-bottom: 0.5rem;
+}
+.link-list span {
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+.middle-footer-rt img {
+    position: relative;
+    width: 40rem;
+    height: 40rem;
+}
+.btn-signup {
+    background-color: #303030;
+    color: #fff;
+    padding: 0.5rem;
+    border-color: #008aff;
+}
+.bottom-footer-rt {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+#title-follow {
+    color: #008aff;
+    font-weight: 800;
+    font-size: 1.6rem;
+}
