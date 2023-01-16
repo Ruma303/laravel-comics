@@ -116,16 +116,25 @@ main .card-title{
     font-size: 1rem;
     overflow-wrap: break-word;
 }
-main .main-bottom-menu{
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+footer .footer-bottom-menu{
+    background-color: #008aff;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 10rem;
     width: 100%;
     margin: 0;
-    background-color: #008aff;
 }
-main .thumb-list{
+footer .thumb-list{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,7 +143,7 @@ main .thumb-list{
     margin: 0;
     gap: 3rem;
 }
-main .thumb {
+footer .thumb {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,31 +153,33 @@ main .thumb {
     gap: 1rem;
     color: white;
 }
-main .thumb-img {
+footer .thumb-img {
     max-width: 4rem;
 }
-main .thumb-title {
+footer .thumb-title {
     text-transform: uppercase;
     font-weight: 400;
 }
-.bottom-footer,
-.rest-footer,
-.top-footer {
+.footer-top,
+.footer-middle,
+.footer-bottom {
     position: relative;
     z-index: 2;
 }
-.top-footer {
+.footer-top {
     background-color: #008aff;
     height: 189px;
 }
-.middle-footer {
-    // background-image: url(/img/footer-bg.1b706117.jpg); //TODO: CAMBIA PERCORSO
+.footer-middle {
     height: 480px;
+    width: 100vw;
     background-repeat: none;
 }
-.bottom-footer {
+.footer-bottom {
     background-color: #2f2f2f;
     height: 157px;
+    width: 100%;
+    margin: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -177,7 +188,7 @@ main .thumb-title {
     background-color: #202020;
     height: 50vh;
 }
-.top-footer {
+.footer-top {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,32 +196,39 @@ main .thumb-title {
     width: 100%;
     white-space: nowrap;
 }
-.top-footer li {
+.footer-top li {
     display: flex;
     align-items: center;
     gap: 1rem;
     color: #fff;
     text-transform: uppercase;
 }
-.top-footer img{
+.footer-top img{
     max-width: 4rem;
     max-height: 4rem;
 }
-.middle-footer {
+.footer-middle {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.middle-footer-lt-ul {
+.left-links{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: gray;
+
+}
+.footer-middle-lt {
     display: flex;
     gap: 2rem;
+    color: gray;
 }
-.middle-footer h1 {
+.footer-middle h1 {
     color: #fff;
     font-size: 1.5rem;
-}
-.middle-footer span {
-    color: gray;
+    text-transform: uppercase;
 }
 .first-col {
     display: flex;
@@ -229,10 +247,10 @@ main .thumb-title {
     cursor: pointer;
     font-size: 0.8rem;
 }
-.middle-footer-rt img {
+.footer-middle-rt img {
     position: relative;
-    width: 40rem;
-    height: 40rem;
+    width: 35rem;
+    height: 35rem;
 }
 .btn-signup {
     background-color: #303030;
@@ -240,13 +258,15 @@ main .thumb-title {
     padding: 0.5rem;
     border-color: #008aff;
 }
-.bottom-footer-rt {
+.footer-bottom-rt {
     display: flex;
     gap: 1rem;
     align-items: center;
+    text-transform: uppercase;
 }
 #title-follow {
     color: #008aff;
     font-weight: 800;
     font-size: 1.6rem;
+    text-transform: uppercase;
 }

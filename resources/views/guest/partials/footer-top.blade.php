@@ -1,4 +1,4 @@
-<div class="main-bottom-menu">
+<div class="footer-bottom-menu">
     <ul class="thumb-list">
         <li class="thumb">
             <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="" class="thumb-img">
